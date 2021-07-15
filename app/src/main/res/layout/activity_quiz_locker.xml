@@ -33,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="165dp"
         android:layout_margin="8dp"
+        android:background="@drawable/sbubble"
         android:gravity="center"
         android:text="포르투갈의\n수도는?"
         android:textSize="32sp"
@@ -43,17 +44,22 @@
         app:layout_constraintVertical_bias="0.42" />
 
     <SeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/selectSeekBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:max="100"
+        android:maxHeight="4dp"
         android:paddingLeft="0dp"
         android:paddingRight="0dp"
         android:progress="50"
+        android:progressDrawable="@drawable/progress"
+        android:thumb="@drawable/slide"
         app:layout_constraintBottom_toBottomOf="@+id/leftImageView"
         app:layout_constraintEnd_toStartOf="@+id/rightImageView"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/leftImageView"
-        app:layout_constraintTop_toTopOf="@+id/leftImageView" />
+        app:layout_constraintTop_toTopOf="@+id/leftImageView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/leftImageView"
@@ -87,7 +93,7 @@
         android:text="서울"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/leftImageView"
-        app:layout_constraintEnd_toStartOf="@+id/seekBar"
+        app:layout_constraintEnd_toStartOf="@+id/selectSeekBar"
         app:layout_constraintStart_toStartOf="@+id/leftImageView" />
 
     <TextView
@@ -99,5 +105,5 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/rightImageView"
         app:layout_constraintEnd_toEndOf="@+id/rightImageView"
-        app:layout_constraintStart_toEndOf="@+id/seekBar" />
+        app:layout_constraintStart_toEndOf="@+id/selectSeekBar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

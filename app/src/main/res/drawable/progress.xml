@@ -9,7 +9,6 @@
     </item>
 
     <item android:id="@android:id/progress">
-
         <clip>
             <shape android:shape="rectangle">
                 <corners android:radius="20dp"/>

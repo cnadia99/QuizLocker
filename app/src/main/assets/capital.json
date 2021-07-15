@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "대한민국의\n수도는?",
+    "choice1": "서울",
+    "choice2": "뉴욕",
+    "answer": 1
+  },
+  {
+    "id": 2,
+    "question": "네팔의\n수도는?",
+    "choice1": "딜리",
+    "choice2": "카트만두",
+    "answer": 2
+  },
+  {
+    "id": 3,
+    "question": "라오스의\n수도는?",
+    "choice1": "베이루트",
+    "choice2": "비엔티안",
+    "answer": 1
+  },
+  {
+    "id": 4,
+    "question": "중국의\n수도는?",
+    "choice1": "북경",
+    "choice2": "뉴욕",
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "question": "미국의\n수도는?",
+    "choice1": "뉴욕",
+    "choice2": "워싱턴",
+    "answer": 2
+  }
+]
